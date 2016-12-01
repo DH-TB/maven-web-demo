@@ -1,10 +1,10 @@
-Simplest JSP Demo
-=================
+Maven Web Demo
+============
 
-To run a jsp file with Tomcat 8.x, just put it under a directory under Tomcat's `webapps/`, say:
+A simplest web(jsp/servlet) demo with maven.
 
 ```
-webapps/jsp-demo/index.jsp
+mvn jetty:run
 ```
 
-It can be visited from <http://localhost:8080/jsp-demo> if tomcat started.
+Open <http://localhost:8080/index.jsp>.
