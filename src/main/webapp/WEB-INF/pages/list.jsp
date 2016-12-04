@@ -17,7 +17,7 @@
     <span>Welcome,
         <span><%=session.getAttribute("userName")%></span>
     </span>
-    <span><a>logout</a></span>
+    <span><a href="#">logout</a></span>
 </div>
 
 <div>
