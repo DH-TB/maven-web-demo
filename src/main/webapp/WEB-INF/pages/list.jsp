@@ -3,6 +3,7 @@
 <%@ page import="demo.views.ListBooksPageServlet" %>
 <%@ page import="demo.models.Book" %>
 <%@ page import="demo.actions.CreateBookServlet" %>
+<%@ page import="demo.views.LoginPageServlet" %>
 
 
 <html lang="en">
@@ -14,7 +15,7 @@
 
 <div>
     <span>Welcome,
-        <span><%=request.getSession().getAttribute("userName")%></span>
+        <span><%=session.getAttribute("userName")%></span>
     </span>
     <span><a>logout</a></span>
 </div>
